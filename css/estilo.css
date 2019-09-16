@@ -1,0 +1,241 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css?family=Baloo+Bhaina|Bungee|Indie+Flower|Lilita+One|Londrina+Solid|Passion+One&display=swap');
+/*NAV MENU */
+nav#menu{
+
+  background-color:#DF7401;
+}
+img#logo{
+  width:120px; height:50px;
+}
+nav#menu a{
+    color: #FAFAFA;/*cor das letras do nav */
+    text-decoration:none;
+    font-family: 'Londrina Solid', cursive;
+    font-size: 25px;
+    font-weight: bold;
+  }
+  nav#menu a:hover{
+    color: #610B0B;
+}
+
+  .navbar-inverse, .dropdown-menu{
+
+    background-color: #000 !important;
+
+  }
+
+  /*LOGIN*/
+
+div#Login{
+background-color:rgba(0,0,0,.4);/*FUNDO DE FORA DO LOGIN*/
+border:none;
+}
+div#loginDois{
+  font-family: 'Londrina Solid', cursive;
+  background-color:#E6E6E6;
+  border:none;
+
+}
+div#espacoLogin{
+background-color:#61210B;
+  border:none;
+}
+div#loginDois h5{
+  font-size:3em;
+  color:white;
+  border:none;
+}
+button#BotaoEntrarLogin{
+  background-color:#DF7401;
+  border:none;
+}
+button#BotaoEntrarLogin{
+  background-color:#DF7401;
+  border:none;
+  color;
+}
+
+button#BotaoFechar{
+  font-family:none;
+}
+
+
+
+/*HISTORIA INDEX*/
+div#historia{
+  background:url('http://static.hdw.eweb4.com/media/wallpapers_dl/1/76/758842-background-sites.png')no-repeat;
+  position: relative; top: 80 px; left: 100 px;
+  }
+
+div#historiaTeste{
+  margin:0;
+  padding:0;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  min-height:100vh;
+  font-family:'Indie Flower', cursive;
+  color:white;
+}
+
+div#historiaTeste02{
+
+}
+
+div#historiaTeste02 h2{
+  font-family: 'Londrina Solid', cursive;
+
+  margin:0;
+  padding:0 0 0 0;
+  font-size:10vw;
+}
+
+div#historiaTeste02 p{
+margin:0 0;
+padding:0;
+font-size:4vw;
+
+}
+
+/* CARDAPIO INDEX*/
+
+div#cardapio{
+margin-bottom: 0px;
+  }
+  div#cardapioCorpo{
+    background-color:rgba(0,0,0,.0);
+    opacity: 1;
+     font-family: 'Londrina Solid', cursive;
+     color:#FBD900;
+  }
+
+    div#cardapioCorpo h2{
+      color:#FBD900;
+      font-size:6em;
+
+    }
+    div#cardapioCorpo p{
+      color:white;
+      font-family:'Indie Flower', cursive;
+      font-size: 5em;
+
+    }
+    div#cardapioCorpo a{
+      color:white;
+}
+
+div#botaoCARDA{
+  margin-bottom: 10px;
+}
+
+div#botaoCARDA a{
+  border:none;
+  background-color:#DF7401;
+
+
+}
+/*CONTATO E CONTATE INDEX*/
+
+div#contato{
+  background-color:#FFBF00;
+   font-family: 'Londrina Solid', cursive;
+   color:#B45F04;
+
+}
+div#contato01 p{
+  color:#B40404;
+
+}
+
+/*BOTAO FC
+div#botaoFC a{
+  border:none;
+  background-color:#61210B;
+}
+*/
+
+
+/*FOOTER*/
+
+
+footer#rodape{
+  color:white;
+  font-family: 'Londrina Solid', cursive;
+
+}
+
+/*MENU DO FOOTER*/
+div#menuFooter a{
+      color: #FBD900;/*cor das letras do nav */
+      text-decoration:none;
+      font-family: 'Caveat Brush', cursive;
+      font-size: 25px;
+      font-weight: bold;
+    }
+div#menuFooter a:hover{
+      color: #FE9A2E;
+    }
+
+
+/*PAGINAS*/
+
+/*PAGINA DE FALE CONOSCO */
+div#faleconsPG{
+  padding-top: 70px;
+    background-color:#F2F2F2;
+    font-family: 'Londrina Solid', cursive;
+    padding-bottom: 60px;
+}
+
+div#faleconsPG h3{
+font-size: 3.5em;
+
+}
+
+div#faleconsPG p{
+font-size: 1.5em;
+
+}
+#subtextFC {
+  font-size: 1px;
+  font-style: italic;
+  font-family:'Arial', sans-serif ;
+
+}
+
+/*PAGINA DE CARDAPIO*/
+div#cardapioPizzas {
+  font-family: 'Londrina Solid', cursive;
+}
+
+div#cardapioPizzas h2{
+  color:#B45F04;
+}
+div#cardapioPizzas h4{
+  color:#B40404;
+}
+div#cardapioPizzas p{
+  color:#8A2908;
+}
+
+
+/*PAGINA DE CADASTRO*/
+div#formCadast{
+background-color: white;
+
+}
+
+
+
+div#cadastPG {
+  background-color:#F2F2F2;
+font-family: 'Londrina Solid', cursive;
+}
+
+/*Aviso erro ao logar*/
+
+p.aviso{
+  color: red;
+}
