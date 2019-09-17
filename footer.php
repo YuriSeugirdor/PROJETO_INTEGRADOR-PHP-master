@@ -59,7 +59,7 @@
 
 <!-- Copyright -->
 <div class="footer-copyright text-center py-3">© 2018 Copyright:
-  <a href="https://mdbootstrap.com/education/bootstrap/"> MDBootstrap.com</a><br>
+  <a> MDBootstrap.com</a><br>
   <p href="#">by: Yuri Rodrigues</p>
 </div>
 <!-- Copyright -->

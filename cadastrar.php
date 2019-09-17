@@ -6,9 +6,13 @@ $nome = mysqli_real_escape_string($conexao, trim($_POST['nome']));
 $usuario = mysqli_real_escape_string($conexao, trim($_POST['usuario']));
 $senha = mysqli_real_escape_string($conexao, trim(md5($_POST['senha'])));
 
-$sql = "select count(*) as total from cadastro where usuario = '$usuario'";
+$sql = "select count(*) as total from registro_cliente where usuario = '$usuario'";
+
+//Ta passando só
+
 $result = mysqli_query($conexao, $sql);
 $row = mysqli_fetch_assoc($result);
+
 
 if($row['total'] == 1) {
 	$_SESSION['usuario_existe'] = true;
@@ -16,7 +20,7 @@ if($row['total'] == 1) {
 	exit;
 }
 
-$sql = "INSERT INTO cadastro (nome, usuario, senha, data_cadastro) VALUES ('$nome', '$usuario', '$senha', NOW())";
+$sql = "INSERT INTO registro_cliente (nome, usuario, senha, data_cadastro) VALUES ('$nome', '$usuario', '$senha', NOW())";
 
 if($conexao->query($sql) === TRUE) {
 	$_SESSION['status_cadastro'] = true;

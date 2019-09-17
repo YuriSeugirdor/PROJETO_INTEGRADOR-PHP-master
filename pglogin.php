@@ -1,5 +1,4 @@
-<?php session_start(); include './header.php' ?>
-
+<?php include './header.php' ?>
 
 
 <div id="cadastPG" class="" >
@@ -16,7 +15,7 @@
 
             <form form action="login.php" method="POST">
               <div class="form-group">
-                <label for="exampleInputEmail1">Nome de usuario</label>
+                <label for="exampleInputEmail1">Usuario</label>
                 <input name="usuario" type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Nome de usuario">
 
               </div>
@@ -41,7 +40,7 @@
               <button id="BotaoEntrarLogin" type="submit" class="btn btn-primary btn-lg">Entrar</button>
               <br>
               <br>
-                <p class="aviso">Ainda não tem cadastro?  <a href="cadastrar.php">cadastre-se</a></p>
+                <p class="" style="color:#B18904">Ainda não tem cadastro?  <a href="cadastrar.php">cadastre-se</a></p>
 
              </form>
     </div>
